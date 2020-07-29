@@ -7,7 +7,7 @@ h1 {
 }
 .twitter-timeline {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 200px;
     display: block;
 }
 .title2 {
@@ -20,9 +20,21 @@ h1 {
 }
 .info {
     text-align: center;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 50px;
+
+}
+.mainbody {
+    position:absolute;
+    display: block;
+    justify-content: right;
+    align-items: right;
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 700px;
+    height:500px;
+    margin-left: 500px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
