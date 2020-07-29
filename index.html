@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-
+<link rel="stylesheet" href="style.css">
 <html lang="en">
 <head> 
+
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,40 +11,67 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<div class= "topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="aboutp2.html">About</a>
+  <div class="dropdown">
+    <button class="dropbtn">Movements
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="BLM.html">Black Lives Matter</a>
+      <a href="climatechange.html">Climate Change</a>
+      <a href="palestine.html">Palestine Conflict</a>
+      <a href="garment.html">Bangledesh Garment Industry</a>
+    </div>
+  </div>
+  <a href="contactus.html">Contact Us</a>
+</div>
 <h1>ATTENTION: THESE ARE MAJOR ISSUES YOU NEED TO KNOW ABOUT</h1>
 <div class="container">
     <h2>THE WORLD RIGHT NOW</h2>  
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="0" class="active2"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
       </ol>
   
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <img src="https://www.weeklyblitz.net/wp-content/uploads/2018/10/Israeli-Palestinian-Peace-Plan-Ready-to-Clash.jpg" alt="Palestine conflict">
+          <a href="palestine.html">
+          <img src="https://www.weeklyblitz.net/wp-content/uploads/2018/10/Israeli-Palestinian-Peace-Plan-Ready-to-Clash.jpg" alt="Palestine conflict" >
+          </a>
+        </div>
+  
+        <div class="item">
+          <a href="garment.html">
+          <img src="https://www.ifc.org/wps/wcm/connect/4fe3120f-b13c-4653-8d7a-8c4755d0e1c3/Bangladesh-garment-industry-1920x960.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-4fe3120f-b13c-4653-8d7a-8c4755d0e1c3-m-H3MCU" alt="Bangladesh garment industry" href="garment.html">
+          </a>
         </div>
     
         <div class="item">
-          <img src="https://www.ifc.org/wps/wcm/connect/4fe3120f-b13c-4653-8d7a-8c4755d0e1c3/Bangladesh-garment-industry-1920x960.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-4fe3120f-b13c-4653-8d7a-8c4755d0e1c3-m-H3MCU" alt="Bangladesh garment industry">
-        </div>
-    
-        <div class="item">
-          <img src="https://pbs.twimg.com/media/EdzEyh3XYAIpcsH.jpg" alt="Climate change">
+          <a href="climatechange.html">
+          <img src="https://pbs.twimg.com/media/EdzEyh3XYAIpcsH.jpg" alt="Climate change" href="climatechange.html">
+          </a>
         </div>
 
         <div class="item">
-            <img src="https://headtopics.com/images/2019/9/4/businessinsider/china-may-have-used-a-recent-massive-iphone-hack-to-target-uighur-muslims-1169005748975788035.webp" alt="Uyghur muslims">
+          <a href="BLM.html">
+          <img src="BLM3.jpg" alt="Black Lives Matter" href="BLM.html">
+          </a>
           </div>
 
+        <div class="item">
+          <img src="https://headtopics.com/images/2019/9/4/businessinsider/china-may-have-used-a-recent-massive-iphone-hack-to-target-uighur-muslims-1169005748975788035.webp" alt="Uyghur muslims">
+          </div>
+        
       </div>
   
       <!-- Left and right controls -->
@@ -57,15 +85,6 @@
       </a>
     </div>
   </div>
-  <h3> 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
-  <a href="garment.html" title="Bangladesh Garment Industry"> Bangladesh Garment Industry</a>
-  <p>
-      
-  </p> 
-  <a href="palestine.html" title="Palestine Conflict"> Palestine Conflict</a>
-</h3>
-
 </body>    
 </html>
 
