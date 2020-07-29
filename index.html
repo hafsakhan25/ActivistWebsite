@@ -3,17 +3,16 @@
 <html lang="en">
 <head> 
 
-    <title>Bootstrap Example</title>
+    <title>Activist Central</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class= "topnav">
+<div class= "topnav" id="myTopNav">
   <a class="active" href="index.html">Home</a>
   <a href="aboutp2.html">About</a>
   <div class="dropdown">
@@ -27,9 +26,22 @@
       <a href="garment.html">Bangledesh Garment Industry</a>
       <a href="uyghur.html">Uyghur Muslims</a>
     </div>
-  </div>
   <a href="contactus.html">Contact Us</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    <i class="fa fa-bars"></i>
+    <script>
+      function myFunction() {
+          var x = document.getElementById("myTopNav");
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } else {
+              x.className = "topnav";
+          }
+      }
+      </script>
 </div>
+
 <center><h1>Activist Central</h1></center>
 <div class="container">
     <center><h2>ATTENTION: THESE ARE MAJOR ISSUES YOU NEED TO KNOW ABOUT</h2></center>
