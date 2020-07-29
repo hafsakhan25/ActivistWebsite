@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(255, 242, 121);
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    
+    font-family: 'Quicksand', serif;
+    font-size: 38px;
+}
+
+
