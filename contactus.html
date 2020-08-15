@@ -3,24 +3,39 @@
 <link rel="stylesheet" type="text/css" href="contactus.css">
 <html>
     <link rel="stylesheet" type="text/css" href="style.css">
-<body>
-<div class= "topnav">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+      </head>
+    <body> 
+      <nav class= "topnav navbar navbar-expand-md">
         <a class="active" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="true">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <a href="aboutp2.html">About</a>
         <div class="dropdown">
           <button class="dropbtn">Movements
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="BLM.html">Black Lives Matter</a>
-            <a href="climatechange.html">Climate Change</a>
-            <a href="palestine.html">Palestine Conflict</a>
-            <a href="garment.html">Bangledesh Garment Industry</a>
-            <a href="uyghur.html">Uyghur Muslims</a>
+            <ul>
+            <li><a href="BLM.html">Black Lives Matter</a></li>
+            <li><a href="climatechange.html">Climate Change</a></li>
+            <li><a href="palestine.html">Palestine Conflict</a></li>
+            <li><a href="garment.html">Bangledesh Garment Industry</a></li>
+            <li><a href="uyghur.html">Uyghur Muslims</a></li>
+            </ul>
           </div>
         </div>
         <a href="contactus.html">Contact Us</a>
-      </div>
+        </div>
+      </nav>
 <p class="p1">Enter your details in the form below, then click "Submit". A member of our team will get back to you as soon as possible.</p>
 
 <form id="frm1" action="thankyou.php" method="POST">
