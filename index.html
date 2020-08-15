@@ -1,49 +1,42 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="style.css">
 <html lang="en">
-<head> 
-
-    <title>Activist Central</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-<div class= "topnav" id="myTopNav">
-  <a class="active" href="index.html">Home</a>
-  <a href="aboutp2.html">About</a>
-  <div class="dropdown">
-    <button class="dropbtn">Movements
-      <i class="fa fa-caret-down"></i>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </head>
+<body> 
+  <nav class= "topnav navbar navbar-expand-md">
+    <a class="active" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="true">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="dropdown-content">
-      <a href="BLM.html">Black Lives Matter</a>
-      <a href="climatechange.html">Climate Change</a>
-      <a href="palestine.html">Palestine Conflict</a>
-      <a href="garment.html">Bangledesh Garment Industry</a>
-      <a href="uyghur.html">Uyghur Muslims</a>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <a href="aboutp2.html">About</a>
+    <div class="dropdown">
+      <button class="dropbtn">Movements
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <ul>
+        <li><a href="BLM.html">Black Lives Matter</a></li>
+        <li><a href="climatechange.html">Climate Change</a></li>
+        <li><a href="palestine.html">Palestine Conflict</a></li>
+        <li><a href="garment.html">Bangledesh Garment Industry</a></li>
+        <li><a href="uyghur.html">Uyghur Muslims</a></li>
+        </ul>
+      </div>
     </div>
-  <a href="contactus.html">Contact Us</a>
-  </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-    <i class="fa fa-bars"></i>
-    <script>
-      function myFunction() {
-          var x = document.getElementById("myTopNav");
-          if (x.className === "topnav") {
-              x.className += " responsive";
-          } else {
-              x.className = "topnav";
-          }
-      }
-      </script>
-</div>
-
+    <a href="contactus.html">Contact Us</a>
+    </div>
+  </nav>
+  
 <center><h1>Activist Central</h1></center>
-<div class="container">
+<div class="contain">
     <center><h2>ATTENTION: THESE ARE MAJOR ISSUES YOU NEED TO KNOW ABOUT</h2></center>
   
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
